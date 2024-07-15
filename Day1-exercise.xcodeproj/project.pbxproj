@@ -13,6 +13,8 @@
 		80065CCB2C44E8110070E24E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 80065CCA2C44E8110070E24E /* Base */; };
 		80065CCD2C44E8120070E24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80065CCC2C44E8120070E24E /* Assets.xcassets */; };
 		80065CD02C44E8120070E24E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 80065CCF2C44E8120070E24E /* Base */; };
+		80065CD82C44E9A20070E24E /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065CD72C44E9A20070E24E /* FrontPageViewController.swift */; };
+		80065CDA2C44E9CA0070E24E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065CD92C44E9CA0070E24E /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		80065CCC2C44E8120070E24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80065CCF2C44E8120070E24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80065CD12C44E8120070E24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80065CD72C44E9A20070E24E /* FrontPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
+		80065CD92C44E9CA0070E24E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				80065CC52C44E8110070E24E /* SceneDelegate.swift */,
 				80065CC72C44E8110070E24E /* ViewController.swift */,
 				80065CC92C44E8110070E24E /* Main.storyboard */,
+				80065CD72C44E9A20070E24E /* FrontPageViewController.swift */,
+				80065CD92C44E9CA0070E24E /* SignUpViewController.swift */,
 				80065CCC2C44E8120070E24E /* Assets.xcassets */,
 				80065CCE2C44E8120070E24E /* LaunchScreen.storyboard */,
 				80065CD12C44E8120070E24E /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				80065CC82C44E8110070E24E /* ViewController.swift in Sources */,
+				80065CD82C44E9A20070E24E /* FrontPageViewController.swift in Sources */,
 				80065CC42C44E8110070E24E /* AppDelegate.swift in Sources */,
 				80065CC62C44E8110070E24E /* SceneDelegate.swift in Sources */,
+				80065CDA2C44E9CA0070E24E /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
