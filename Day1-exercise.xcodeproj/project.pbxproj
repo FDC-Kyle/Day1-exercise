@@ -9,25 +9,39 @@
 /* Begin PBXBuildFile section */
 		80065CC42C44E8110070E24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065CC32C44E8110070E24E /* AppDelegate.swift */; };
 		80065CC62C44E8110070E24E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065CC52C44E8110070E24E /* SceneDelegate.swift */; };
-		80065CC82C44E8110070E24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065CC72C44E8110070E24E /* ViewController.swift */; };
 		80065CCB2C44E8110070E24E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 80065CCA2C44E8110070E24E /* Base */; };
 		80065CCD2C44E8120070E24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80065CCC2C44E8120070E24E /* Assets.xcassets */; };
 		80065CD02C44E8120070E24E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 80065CCF2C44E8120070E24E /* Base */; };
 		80065CD82C44E9A20070E24E /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065CD72C44E9A20070E24E /* FrontPageViewController.swift */; };
 		80065CDA2C44E9CA0070E24E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80065CD92C44E9CA0070E24E /* SignUpViewController.swift */; };
+		80F06BC32C46098100B09C38 /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC12C46098100B09C38 /* TeacherListViewController.swift */; };
+		80F06BC42C46098100B09C38 /* TeacherListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F06BC22C46098100B09C38 /* TeacherListViewController.xib */; };
+		80F06BCA2C460B4F00B09C38 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC92C460B4F00B09C38 /* SignInViewController.swift */; };
+		80F06BCD2C4613A100B09C38 /* TeacherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F06BCC2C4613A100B09C38 /* TeacherCell.xib */; };
+		80F06BCE2C4613A100B09C38 /* TeacherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BCB2C4613A100B09C38 /* TeacherCell.swift */; };
+		80F06BD72C463A7500B09C38 /* TeacherDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F06BD62C463A7500B09C38 /* TeacherDetailsViewController.xib */; };
+		80F06BD82C463A7500B09C38 /* TeacherDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BD52C463A7500B09C38 /* TeacherDetailsViewController.swift */; };
+		80F06BE62C466B1500B09C38 /* TableViewHeadwer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BE52C466B1500B09C38 /* TableViewHeadwer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80065CC02C44E8110070E24E /* Day1-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day1-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80065CC32C44E8110070E24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80065CC52C44E8110070E24E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80065CC72C44E8110070E24E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80065CCA2C44E8110070E24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80065CCC2C44E8120070E24E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80065CCF2C44E8120070E24E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80065CD12C44E8120070E24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80065CD72C44E9A20070E24E /* FrontPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
 		80065CD92C44E9CA0070E24E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		80F06BC12C46098100B09C38 /* TeacherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeacherListViewController.swift; path = ../../TeacherListViewController.swift; sourceTree = "<group>"; };
+		80F06BC22C46098100B09C38 /* TeacherListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeacherListViewController.xib; path = ../../TeacherListViewController.xib; sourceTree = "<group>"; };
+		80F06BC92C460B4F00B09C38 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		80F06BCB2C4613A100B09C38 /* TeacherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherCell.swift; sourceTree = "<group>"; };
+		80F06BCC2C4613A100B09C38 /* TeacherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherCell.xib; sourceTree = "<group>"; };
+		80F06BD52C463A7500B09C38 /* TeacherDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDetailsViewController.swift; sourceTree = "<group>"; };
+		80F06BD62C463A7500B09C38 /* TeacherDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeacherDetailsViewController.xib; sourceTree = "<group>"; };
+		80F06BE52C466B1500B09C38 /* TableViewHeadwer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeadwer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +76,20 @@
 			children = (
 				80065CC32C44E8110070E24E /* AppDelegate.swift */,
 				80065CC52C44E8110070E24E /* SceneDelegate.swift */,
-				80065CC72C44E8110070E24E /* ViewController.swift */,
 				80065CC92C44E8110070E24E /* Main.storyboard */,
+				80F06BD52C463A7500B09C38 /* TeacherDetailsViewController.swift */,
+				80F06BD62C463A7500B09C38 /* TeacherDetailsViewController.xib */,
+				80F06BC12C46098100B09C38 /* TeacherListViewController.swift */,
+				80F06BCB2C4613A100B09C38 /* TeacherCell.swift */,
+				80F06BCC2C4613A100B09C38 /* TeacherCell.xib */,
+				80F06BC22C46098100B09C38 /* TeacherListViewController.xib */,
 				80065CD72C44E9A20070E24E /* FrontPageViewController.swift */,
+				80F06BC92C460B4F00B09C38 /* SignInViewController.swift */,
 				80065CD92C44E9CA0070E24E /* SignUpViewController.swift */,
 				80065CCC2C44E8120070E24E /* Assets.xcassets */,
 				80065CCE2C44E8120070E24E /* LaunchScreen.storyboard */,
 				80065CD12C44E8120070E24E /* Info.plist */,
+				80F06BE52C466B1500B09C38 /* TableViewHeadwer.swift */,
 			);
 			path = "Day1-exercise";
 			sourceTree = "<group>";
@@ -132,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80065CCD2C44E8120070E24E /* Assets.xcassets in Resources */,
+				80F06BC42C46098100B09C38 /* TeacherListViewController.xib in Resources */,
+				80F06BD72C463A7500B09C38 /* TeacherDetailsViewController.xib in Resources */,
+				80F06BCD2C4613A100B09C38 /* TeacherCell.xib in Resources */,
 				80065CD02C44E8120070E24E /* Base in Resources */,
 				80065CCB2C44E8110070E24E /* Base in Resources */,
 			);
@@ -144,11 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80065CC82C44E8110070E24E /* ViewController.swift in Sources */,
+				80F06BE62C466B1500B09C38 /* TableViewHeadwer.swift in Sources */,
+				80F06BCA2C460B4F00B09C38 /* SignInViewController.swift in Sources */,
+				80F06BC32C46098100B09C38 /* TeacherListViewController.swift in Sources */,
 				80065CD82C44E9A20070E24E /* FrontPageViewController.swift in Sources */,
 				80065CC42C44E8110070E24E /* AppDelegate.swift in Sources */,
 				80065CC62C44E8110070E24E /* SceneDelegate.swift in Sources */,
 				80065CDA2C44E9CA0070E24E /* SignUpViewController.swift in Sources */,
+				80F06BD82C463A7500B09C38 /* TeacherDetailsViewController.swift in Sources */,
+				80F06BCE2C4613A100B09C38 /* TeacherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

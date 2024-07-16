@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Front Page View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FrontPageViewController" customModule="Day1_exercise" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="signInIdentifier" id="BYZ-38-t0r" customClass="SignInViewController" customModule="Day1_exercise" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,6 +45,9 @@
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Login to Montek"/>
+                                                <connections>
+                                                    <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ite-LV-HZe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGx-yi-JBX">
                                                 <rect key="frame" x="175" y="138.66666666666663" width="43" height="69.333333333333314"/>
@@ -75,33 +78,18 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="llM-os-W9D" firstAttribute="top" secondItem="0uu-MT-Gc6" secondAttribute="top" id="PmF-g4-i6i"/>
-                                    <constraint firstItem="llM-os-W9D" firstAttribute="leading" secondItem="0uu-MT-Gc6" secondAttribute="leading" id="Yj2-BN-Fbd"/>
-                                    <constraint firstAttribute="trailing" secondItem="llM-os-W9D" secondAttribute="trailing" id="rgA-CQ-cf7"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9a3-of-uZS"/>
-                            <constraint firstAttribute="bottom" secondItem="0uu-MT-Gc6" secondAttribute="bottom" id="Keh-o5-Rp6"/>
-                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f4f-qW-v85"/>
-                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="knS-dY-p73"/>
-                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sKF-kC-PYr"/>
-                            <constraint firstAttribute="trailing" secondItem="0uu-MT-Gc6" secondAttribute="trailing" id="uEE-4b-Fpt"/>
+                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cpn-ek-ooW"/>
+                            <constraint firstAttribute="trailing" secondItem="0uu-MT-Gc6" secondAttribute="trailing" id="MTC-oQ-6cN"/>
+                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="r8A-Yp-FZm"/>
+                            <constraint firstAttribute="bottom" secondItem="0uu-MT-Gc6" secondAttribute="bottom" id="yU7-vG-isw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rQJ-bw-DQX"/>
-                    <connections>
-                        <outlet property="appleBtn" destination="gTd-0c-ouR" id="Ysp-4q-5Ij"/>
-                        <outlet property="facebookBtn" destination="nYV-vz-vcB" id="t9y-Cd-Wxp"/>
-                        <outlet property="googleBtn" destination="UcC-qX-XDa" id="NOA-HI-NTJ"/>
-                        <outlet property="loginBtn" destination="1Da-ru-Rc9" id="dme-rV-5uU"/>
-                        <outlet property="overlay" destination="llM-os-W9D" id="uyq-Pu-fDc"/>
-                        <outlet property="signUpBtn" destination="pWe-kE-d1g" id="6hO-ou-ha6"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
