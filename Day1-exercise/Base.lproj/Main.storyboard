@@ -16,22 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0uu-MT-Gc6">
-                                <rect key="frame" x="-179.66666666666666" y="6" width="752.33333333333337" height="840"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0uu-MT-Gc6">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="llM-os-W9D">
-                                        <rect key="frame" x="0.0" y="0.0" width="752.33333333333337" height="564"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="416"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard2" translatesAutoresizingMaskIntoConstraints="NO" id="HQS-tu-9Tr">
-                                                <rect key="frame" x="0.0" y="0.0" width="752.33333333333337" height="564"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="416"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lBg-XG-bcu">
-                                        <rect key="frame" x="0.0" y="584" width="752.33333333333337" height="256"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lBg-XG-bcu">
+                                        <rect key="frame" x="0.0" y="436" width="393" height="416"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWe-kE-d1g">
-                                                <rect key="frame" x="334.33333333333331" y="0.0" width="84" height="34.333333333333336"/>
+                                                <rect key="frame" x="154.66666666666666" y="0.0" width="84" height="69.333333333333329"/>
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -41,32 +41,32 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Da-ru-Rc9">
-                                                <rect key="frame" x="302.66666666666663" y="44.333333333333371" width="147" height="34.333333333333343"/>
+                                                <rect key="frame" x="123" y="69.333333333333314" width="147" height="69.333333333333314"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Login to Montek"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGx-yi-JBX">
-                                                <rect key="frame" x="354.66666666666663" y="88.666666666666629" width="43" height="34.333333333333343"/>
+                                                <rect key="frame" x="175" y="138.66666666666663" width="43" height="69.333333333333314"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Or"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTd-0c-ouR">
-                                                <rect key="frame" x="287.66666666666663" y="133" width="177.33333333333337" height="34.333333333333343"/>
+                                                <rect key="frame" x="108.00000000000001" y="208" width="177.33333333333337" height="69.333333333333314"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Continue with Apple"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYV-vz-vcB">
-                                                <rect key="frame" x="272.66666666666663" y="177.33333333333337" width="207.33333333333337" height="34.333333333333343"/>
+                                                <rect key="frame" x="93.000000000000014" y="277.33333333333337" width="207.33333333333337" height="69.333333333333314"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Continue with Facebook"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcC-qX-XDa">
-                                                <rect key="frame" x="282.33333333333331" y="221.66666666666663" width="188" height="34.333333333333343"/>
+                                                <rect key="frame" x="102.66666666666669" y="346.66666666666663" width="188" height="69.333333333333314"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Continue with Google"/>
@@ -75,13 +75,22 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="llM-os-W9D" firstAttribute="top" secondItem="0uu-MT-Gc6" secondAttribute="top" id="PmF-g4-i6i"/>
+                                    <constraint firstItem="llM-os-W9D" firstAttribute="leading" secondItem="0uu-MT-Gc6" secondAttribute="leading" id="Yj2-BN-Fbd"/>
+                                    <constraint firstAttribute="trailing" secondItem="llM-os-W9D" secondAttribute="trailing" id="rgA-CQ-cf7"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8GR-zM-AdA"/>
-                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a4v-07-p7u"/>
+                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9a3-of-uZS"/>
+                            <constraint firstAttribute="bottom" secondItem="0uu-MT-Gc6" secondAttribute="bottom" id="Keh-o5-Rp6"/>
+                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f4f-qW-v85"/>
+                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="knS-dY-p73"/>
+                            <constraint firstItem="0uu-MT-Gc6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sKF-kC-PYr"/>
+                            <constraint firstAttribute="trailing" secondItem="0uu-MT-Gc6" secondAttribute="trailing" id="uEE-4b-Fpt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rQJ-bw-DQX"/>
