@@ -24,6 +24,11 @@ class SignInViewController: UIViewController {
         
     }
     
+    @IBAction func productListButton(_ sender: Any) {
+        let vc = ProductsViewController()
+//        vc.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     /*
     // MARK: - Navigation
 
