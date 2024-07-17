@@ -20,8 +20,8 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="85R-aW-hLl">
-                    <rect key="frame" x="0.0" y="24" width="1032" height="1332"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <rect key="frame" x="0.0" y="0.0" width="1032" height="1376"/>
+                    <color key="backgroundColor" red="0.13333333333333333" green="0.12156862745098039" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SDO-71-YXi">
                         <size key="itemSize" width="128" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -33,10 +33,10 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="85R-aW-hLl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="AXx-Ln-cX1"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="85R-aW-hLl" secondAttribute="bottom" id="Ucd-CQ-DxG"/>
-                <constraint firstItem="85R-aW-hLl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="m2Q-U1-ugz"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="85R-aW-hLl" secondAttribute="trailing" id="mIW-By-uxk"/>
+                <constraint firstItem="85R-aW-hLl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LUG-XC-rOI"/>
+                <constraint firstAttribute="bottom" secondItem="85R-aW-hLl" secondAttribute="bottom" id="OT0-gU-pSl"/>
+                <constraint firstItem="85R-aW-hLl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Uoz-0K-B63"/>
+                <constraint firstAttribute="trailing" secondItem="85R-aW-hLl" secondAttribute="trailing" id="XBe-wJ-GEq"/>
             </constraints>
             <point key="canvasLocation" x="62" y="-11"/>
         </view>

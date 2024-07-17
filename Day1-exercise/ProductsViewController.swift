@@ -15,19 +15,126 @@ struct Product{
 class ProductsViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     var products: [Product] = [
-        Product(name:"Cards", image: "creditcard" ),
-        Product(name:"Cards", image: "creditcard" ),
-        Product(name:"Cards", image: "creditcard" ),
-        Product(name:"Cards", image: "creditcard" ),
-        Product(name:"Cards", image: "creditcard" ),
-        Product(name:"Cards", image: "creditcard" ),
-        Product(name:"Cards", image: "creditcard" ),
-        Product(name:"Cards", image: "creditcard" )
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),   
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),   
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),   
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),   
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),   
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" ),   
+        Product(name:"The Hunted", image: "hunter" ),
+        Product(name:"Twilight Vampires", image: "vampire" ),
+        Product(name:"The Hunt Begins", image: "hunter" ),
+        Product(name:"I Am The Future", image: "future" ),
+        Product(name:"Super Heroes United", image: "superhero" ),
+        Product(name:"Dragons Awakened", image: "dragons" )
+        
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
         let nib = UINib(nibName: "ProductCell", bundle: nil)
         self.collectionView.register(nib, forCellWithReuseIdentifier: "ProductCell")
+        navigationController?.navigationBar.titleTextAttributes = [
+               NSAttributedString.Key.foregroundColor: UIColor.red,
+               NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 40)
+           ]
+           
+        title = "NETFLIX"
         
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -46,11 +153,28 @@ extension ProductsViewController:UICollectionViewDelegate, UICollectionViewDataS
         return products.count
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        // add condition for other device ipad reearch ui scroll view, ui tap gesture recognizer, ui longpress recognizer, ui oan gesture recognizer sean allen
-        let itemWidth = (collectionView.bounds.width - 20)/3
+        let isPad = UIDevice.current.userInterfaceIdiom == .pad
+        
+        var numberOfItemsPerRow: CGFloat = 2
+        if isPad {
+            numberOfItemsPerRow = 4
+        }
+        
+        let spacingBetweenItems: CGFloat = 10
+        let totalSpacing = spacingBetweenItems * (numberOfItemsPerRow - 1)
+        let itemWidth = (collectionView.bounds.width - totalSpacing) / numberOfItemsPerRow
+        
         return CGSize(width: itemWidth, height: itemWidth)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let selectedProduct = products[indexPath.row]
+        let vc = ProductDetailViewController()
+        vc.modalPresentationStyle = .fullScreen
+        vc.product = selectedProduct
+        self.present(vc, animated: true, completion: nil)
     }
 }
