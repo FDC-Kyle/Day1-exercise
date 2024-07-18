@@ -9,6 +9,13 @@ import UIKit
 
 protocol TeacherDetailsViewControllerDelegate{
     func didReportTeacher()
+    func didAddToFavorite()
+}
+
+extension TeacherDetailsViewControllerDelegate{
+    func didAddToFavorite(){
+        
+    }
 }
 
 class TeacherDetailsViewController: UIViewController {
@@ -44,10 +51,10 @@ class TeacherDetailsViewController: UIViewController {
             teacherGender.text = teacher.gender
             teacherSubject.text = teacher.subject
             imageViewProfile.image = UIImage(imageLiteralResourceName: teacher.image)
-                }
+        }
     }
     
     @objc private func didTapReport(){
-        
+        self.delegate?.didReportTeacher()
     }
 }

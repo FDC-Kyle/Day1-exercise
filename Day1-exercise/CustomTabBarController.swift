@@ -18,22 +18,34 @@ class CustomTabBarController: UITabBarController {
     
     // set the view controllers
     private func setupViewControllers() {
+        let scrollViewVC = setupTab(for: TestingScrollViewController(),
+                                     with: .white,
+                                     title: "ScrollView",
+                                     imageName: "arrow.up.and.down.circle.fill",
+                                     tag: 0)
         let teacherListVC = setupTab(for: TeacherListViewController(),
-                                     with: .red,
-                                     title: "First",
-                                     imageName: "1.circle",
+                                     with: .white,
+                                     title: "Teachers",
+                                     imageName: "pencil.circle",
                                      tag: 0)
         let productListVC = setupTab(for: ProductsViewController(),
-                                     with: .green,
-                                     title: "Second",
-                                     imageName: "2.circle",
+                                     with: .white,
+                                     title: "Movies",
+                                     imageName: "play.circle",
                                      tag: 1)
         let settingsListVC = setupTab(for: SettingsViewController(),
-                                     with: .blue,
-                                     title: "Third",
-                                     imageName: "3.circle",
+                                     with: .white,
+                                     title: "Settings",
+                                     imageName: "gearshape.fill",
                                      tag: 2)
-        viewControllers = [teacherListVC,productListVC,settingsListVC]
+        let appleListVC = setupTab(for: appleViewController(),
+                                     with: .white,
+                                     title: "Apple",
+                                     imageName: "gearshape.fill",
+                                     tag: 3)
+
+
+        viewControllers = [teacherListVC,productListVC,settingsListVC,scrollViewVC,appleListVC]
     }
     
     
@@ -42,7 +54,6 @@ class CustomTabBarController: UITabBarController {
                           title: String,
                           imageName: String,
                           tag: Int) -> UIViewController {
-        viewController.view.backgroundColor = .black
         viewController.tabBarItem = UITabBarItem(
             title:title,
             image: UIImage(systemName: imageName),
@@ -50,3 +61,4 @@ class CustomTabBarController: UITabBarController {
         return viewController
     }
 }
+//viewController.view.backgroundColor = .black

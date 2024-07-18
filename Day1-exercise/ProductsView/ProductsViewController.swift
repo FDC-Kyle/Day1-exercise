@@ -12,7 +12,7 @@ struct Product{
     let image : String
 }
 
-class ProductsViewController: UIViewController {
+class ProductsViewController: UIViewController{
     @IBOutlet weak var collectionView: UICollectionView!
     var products: [Product] = [
         Product(name:"The Hunted", image: "hunter" ),
@@ -127,6 +127,7 @@ class ProductsViewController: UIViewController {
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let nib = UINib(nibName: "ProductCell", bundle: nil)
         self.collectionView.register(nib, forCellWithReuseIdentifier: "ProductCell")
         navigationController?.navigationBar.titleTextAttributes = [
@@ -178,3 +179,6 @@ extension ProductsViewController:UICollectionViewDelegate, UICollectionViewDataS
         self.present(vc, animated: true, completion: nil)
     }
 }
+
+
+

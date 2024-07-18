@@ -8,7 +8,6 @@
 import UIKit
 
 class ProductDetailViewController: UIViewController {
-
     var product: Product?
 
     @IBOutlet weak var productImageView: UIImageView!
@@ -16,7 +15,7 @@ class ProductDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if let product = product {
             productName.text = product.name
             productImageView.image = UIImage(imageLiteralResourceName: product.image)
