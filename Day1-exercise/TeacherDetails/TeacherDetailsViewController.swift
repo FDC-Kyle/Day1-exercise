@@ -24,6 +24,13 @@ class TeacherDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let reportBarButtonItem = UIBarButtonItem(
+            title: "Report",
+            style: .plain,
+            target: self,
+            action: #selector(didTapReport))
+        self.navigationItem.rightBarButtonItem = reportBarButtonItem
+        
         imageViewProfile.layer.masksToBounds = true
         imageViewProfile.layer.cornerRadius = imageViewProfile.frame.height/2
         
@@ -38,5 +45,9 @@ class TeacherDetailsViewController: UIViewController {
             teacherSubject.text = teacher.subject
             imageViewProfile.image = UIImage(imageLiteralResourceName: teacher.image)
                 }
+    }
+    
+    @objc private func didTapReport(){
+        
     }
 }
