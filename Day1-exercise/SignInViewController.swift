@@ -29,6 +29,10 @@ class SignInViewController: UIViewController {
 //        vc.modalPresentationStyle = .fullScreen
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    @IBAction func signUpButton(_ sender: Any) {
+        let vc = CustomTabBarController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     @IBAction func scrollViewButton(_ sender: Any) {
         let vc = TestingScrollViewController()
         self.navigationController?.pushViewController(vc, animated: true)

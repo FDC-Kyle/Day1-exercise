@@ -53,6 +53,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
                                                 <connections>
+                                                    <action selector="signUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cOC-t5-b37"/>
                                                     <segue destination="KU5-CS-uAF" kind="show" id="Uun-nq-tby"/>
                                                 </connections>
                                             </button>
