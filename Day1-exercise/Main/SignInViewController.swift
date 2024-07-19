@@ -18,18 +18,6 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Register as an observer for the "UserLoggedOut" notification
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(handleUserLogout(notification:)),
-                                               name: Notification.Name("UserLoggedOut"),
-                                               object: nil)
-        
-        // Simulate logout action (assuming you want to initiate logout from here)
-        let appleVC = appleViewController()
-        appleVC.userId = "testUserId123"
-        // Optionally perform logout directly
-        appleVC.doLogout()
-        // Add corner radius to loginView
         loginView.layer.cornerRadius = 20
         loginView.layer.masksToBounds = true
         
@@ -60,20 +48,6 @@ class SignInViewController: UIViewController {
         
     }
     
-    // Selector function that will be called when the notification is received
-        @objc func handleUserLogout(notification: Notification) {
-            if let userId = notification.userInfo?["userId"] as? String {
-                print("Received logout notification for userId: 1")
-                // Perform any necessary actions upon logout
-            }
-        }
-        
-        deinit {
-            // Remove observer in deinit to avoid memory leaks
-            NotificationCenter.default.removeObserver(self)
-        }
-
-    
 //    @IBAction func loginButton(_ sender: Any) {
 //        let vc = TeacherListViewController()
 ////        vc.modalPresentationStyle = .fullScreen
@@ -91,7 +65,19 @@ class SignInViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
-//    @IBAction func FirstViewButton(_ sender: Any) {
+    @IBAction func protocolAndDelegates(_ sender: Any) {
+        let vc = BaseScreen()
+        vc.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func notificationObservers(_ sender: Any) {
+        let vc = BaseScreen()
+        vc.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    //    @IBAction func FirstViewButton(_ sender: Any) {
 //        let vc = FirstViewController()
 //        self.navigationController?.pushViewController(vc, animated: true)
 //    }

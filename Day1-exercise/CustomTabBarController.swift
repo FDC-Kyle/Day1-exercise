@@ -38,14 +38,14 @@ class CustomTabBarController: UITabBarController {
                                      title: "Settings",
                                      imageName: "gearshape.fill",
                                      tag: 2)
-        let appleListVC = setupTab(for: appleViewController(),
+        let baseScreenListVC = setupTab(for: BaseScreen(),
                                      with: .white,
-                                     title: "Apple",
-                                     imageName: "gearshape.fill",
+                                     title: "NBA",
+                                     imageName: "basketball.fill",
                                      tag: 3)
 
 
-        viewControllers = [teacherListVC,productListVC,settingsListVC,scrollViewVC,appleListVC]
+        viewControllers = [teacherListVC,productListVC,settingsListVC,scrollViewVC,baseScreenListVC]
     }
     
     

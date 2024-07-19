@@ -25,8 +25,14 @@
 		80B129C12C48AA4E00A8B576 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B129BF2C48AA4E00A8B576 /* CustomTabBarController.swift */; };
 		80B129C52C48AAAA00A8B576 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B129C32C48AAAA00A8B576 /* SettingsViewController.swift */; };
 		80B129C62C48AAAA00A8B576 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B129C42C48AAAA00A8B576 /* SettingsViewController.xib */; };
-		80B129DF2C49131F00A8B576 /* appleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B129DD2C49131F00A8B576 /* appleViewController.swift */; };
-		80B129E02C49131F00A8B576 /* appleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80B129DE2C49131F00A8B576 /* appleViewController.xib */; };
+		80D0989D2C49DC59002C1F27 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D0989B2C49DC59002C1F27 /* BaseScreen.swift */; };
+		80D0989E2C49DC59002C1F27 /* BaseScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D0989C2C49DC59002C1F27 /* BaseScreen.xib */; };
+		80D098A12C49DC91002C1F27 /* SelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D0989F2C49DC91002C1F27 /* SelectionScreen.swift */; };
+		80D098A22C49DC91002C1F27 /* SelectionScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D098A02C49DC91002C1F27 /* SelectionScreen.xib */; };
+		80D098A52C49E4F3002C1F27 /* NoBaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098A32C49E4F3002C1F27 /* NoBaseScreen.swift */; };
+		80D098A62C49E4F3002C1F27 /* NoBaseScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D098A42C49E4F3002C1F27 /* NoBaseScreen.xib */; };
+		80D098A92C49E506002C1F27 /* NoSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098A72C49E506002C1F27 /* NoSelectionScreen.swift */; };
+		80D098AA2C49E506002C1F27 /* NoSelectionScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D098A82C49E506002C1F27 /* NoSelectionScreen.xib */; };
 		80F06BC32C46098100B09C38 /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC12C46098100B09C38 /* TeacherListViewController.swift */; };
 		80F06BC42C46098100B09C38 /* TeacherListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F06BC22C46098100B09C38 /* TeacherListViewController.xib */; };
 		80F06BCA2C460B4F00B09C38 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC92C460B4F00B09C38 /* SignInViewController.swift */; };
@@ -58,8 +64,14 @@
 		80B129BF2C48AA4E00A8B576 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		80B129C32C48AAAA00A8B576 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		80B129C42C48AAAA00A8B576 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
-		80B129DD2C49131F00A8B576 /* appleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleViewController.swift; sourceTree = "<group>"; };
-		80B129DE2C49131F00A8B576 /* appleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = appleViewController.xib; sourceTree = "<group>"; };
+		80D0989B2C49DC59002C1F27 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		80D0989C2C49DC59002C1F27 /* BaseScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseScreen.xib; sourceTree = "<group>"; };
+		80D0989F2C49DC91002C1F27 /* SelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreen.swift; sourceTree = "<group>"; };
+		80D098A02C49DC91002C1F27 /* SelectionScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionScreen.xib; sourceTree = "<group>"; };
+		80D098A32C49E4F3002C1F27 /* NoBaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoBaseScreen.swift; sourceTree = "<group>"; };
+		80D098A42C49E4F3002C1F27 /* NoBaseScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoBaseScreen.xib; sourceTree = "<group>"; };
+		80D098A72C49E506002C1F27 /* NoSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSelectionScreen.swift; sourceTree = "<group>"; };
+		80D098A82C49E506002C1F27 /* NoSelectionScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoSelectionScreen.xib; sourceTree = "<group>"; };
 		80F06BC12C46098100B09C38 /* TeacherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeacherListViewController.swift; path = ../../TeacherListViewController.swift; sourceTree = "<group>"; };
 		80F06BC22C46098100B09C38 /* TeacherListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeacherListViewController.xib; path = ../../TeacherListViewController.xib; sourceTree = "<group>"; };
 		80F06BC92C460B4F00B09C38 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -100,28 +112,23 @@
 		80065CC22C44E8110070E24E /* Day1-exercise */ = {
 			isa = PBXGroup;
 			children = (
-				80065CC32C44E8110070E24E /* AppDelegate.swift */,
-				80B129C82C48B30100A8B576 /* Settings */,
-				80B129D12C48B91D00A8B576 /* TestingScroll */,
-				80065CC52C44E8110070E24E /* SceneDelegate.swift */,
-				80065CC92C44E8110070E24E /* Main.storyboard */,
 				80B129C72C48B2EB00A8B576 /* TeacherDetails */,
-				80F06BC12C46098100B09C38 /* TeacherListViewController.swift */,
-				80F06BC22C46098100B09C38 /* TeacherListViewController.xib */,
 				80B129D22C48BAC000A8B576 /* TeacherCell */,
 				80B129CA2C48B32E00A8B576 /* ProductsView */,
 				80B129D32C48BAD900A8B576 /* ProductCell */,
-				80065CD72C44E9A20070E24E /* FrontPageViewController.swift */,
-				80F06BC92C460B4F00B09C38 /* SignInViewController.swift */,
-				80065CD92C44E9CA0070E24E /* SignUpViewController.swift */,
+				80D098AB2C49E511002C1F27 /* NotificationObserver */,
+				80B129C92C48B31400A8B576 /* ProductDetails */,
+				80D098AC2C49EECB002C1F27 /* Protocols&Delegates */,
+				80B129C82C48B30100A8B576 /* Settings */,
+				80B129D12C48B91D00A8B576 /* TestingScroll */,
+				80D098B32C49F1D4002C1F27 /* Main */,
+				80F06BC12C46098100B09C38 /* TeacherListViewController.swift */,
+				80F06BC22C46098100B09C38 /* TeacherListViewController.xib */,
 				80065CCC2C44E8120070E24E /* Assets.xcassets */,
 				80065CCE2C44E8120070E24E /* LaunchScreen.storyboard */,
 				80065CD12C44E8120070E24E /* Info.plist */,
 				80F06BE52C466B1500B09C38 /* TableViewHeadwer.swift */,
-				80B129C92C48B31400A8B576 /* ProductDetails */,
 				80B129BF2C48AA4E00A8B576 /* CustomTabBarController.swift */,
-				80B129DD2C49131F00A8B576 /* appleViewController.swift */,
-				80B129DE2C49131F00A8B576 /* appleViewController.xib */,
 			);
 			path = "Day1-exercise";
 			sourceTree = "<group>";
@@ -189,6 +196,41 @@
 			path = ProductCell;
 			sourceTree = "<group>";
 		};
+		80D098AB2C49E511002C1F27 /* NotificationObserver */ = {
+			isa = PBXGroup;
+			children = (
+				80D098A72C49E506002C1F27 /* NoSelectionScreen.swift */,
+				80D098A82C49E506002C1F27 /* NoSelectionScreen.xib */,
+				80D098A32C49E4F3002C1F27 /* NoBaseScreen.swift */,
+				80D098A42C49E4F3002C1F27 /* NoBaseScreen.xib */,
+			);
+			path = NotificationObserver;
+			sourceTree = "<group>";
+		};
+		80D098AC2C49EECB002C1F27 /* Protocols&Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				80D0989F2C49DC91002C1F27 /* SelectionScreen.swift */,
+				80D098A02C49DC91002C1F27 /* SelectionScreen.xib */,
+				80D0989B2C49DC59002C1F27 /* BaseScreen.swift */,
+				80D0989C2C49DC59002C1F27 /* BaseScreen.xib */,
+			);
+			path = "Protocols&Delegates";
+			sourceTree = "<group>";
+		};
+		80D098B32C49F1D4002C1F27 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				80065CC52C44E8110070E24E /* SceneDelegate.swift */,
+				80065CC92C44E8110070E24E /* Main.storyboard */,
+				80065CC32C44E8110070E24E /* AppDelegate.swift */,
+				80065CD72C44E9A20070E24E /* FrontPageViewController.swift */,
+				80F06BC92C460B4F00B09C38 /* SignInViewController.swift */,
+				80065CD92C44E9CA0070E24E /* SignUpViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,13 +290,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				800660762C47AE74007AD5E6 /* TestingScrollViewController.xib in Resources */,
-				80B129E02C49131F00A8B576 /* appleViewController.xib in Resources */,
 				80065CCD2C44E8120070E24E /* Assets.xcassets in Resources */,
 				80B129C62C48AAAA00A8B576 /* SettingsViewController.xib in Resources */,
 				8006606E2C4759CE007AD5E6 /* ProductCell.xib in Resources */,
 				80F06BC42C46098100B09C38 /* TeacherListViewController.xib in Resources */,
+				80D0989E2C49DC59002C1F27 /* BaseScreen.xib in Resources */,
 				80F06BD72C463A7500B09C38 /* TeacherDetailsViewController.xib in Resources */,
+				80D098A22C49DC91002C1F27 /* SelectionScreen.xib in Resources */,
+				80D098AA2C49E506002C1F27 /* NoSelectionScreen.xib in Resources */,
 				8006606A2C47596A007AD5E6 /* ProductsViewController.xib in Resources */,
+				80D098A62C49E4F3002C1F27 /* NoBaseScreen.xib in Resources */,
 				800660722C478C44007AD5E6 /* ProductDetailViewController.xib in Resources */,
 				80F06BCD2C4613A100B09C38 /* TeacherCell.xib in Resources */,
 				80065CD02C44E8120070E24E /* Base in Resources */,
@@ -271,17 +316,20 @@
 			files = (
 				80F06BE62C466B1500B09C38 /* TableViewHeadwer.swift in Sources */,
 				8006606D2C4759CE007AD5E6 /* ProductCell.swift in Sources */,
+				80D098A12C49DC91002C1F27 /* SelectionScreen.swift in Sources */,
 				80F06BCA2C460B4F00B09C38 /* SignInViewController.swift in Sources */,
 				80F06BC32C46098100B09C38 /* TeacherListViewController.swift in Sources */,
 				80065CD82C44E9A20070E24E /* FrontPageViewController.swift in Sources */,
-				80B129DF2C49131F00A8B576 /* appleViewController.swift in Sources */,
 				800660712C478C44007AD5E6 /* ProductDetailViewController.swift in Sources */,
+				80D098A52C49E4F3002C1F27 /* NoBaseScreen.swift in Sources */,
+				80D098A92C49E506002C1F27 /* NoSelectionScreen.swift in Sources */,
 				800660752C47AE74007AD5E6 /* TestingScrollViewController.swift in Sources */,
 				800660692C47596A007AD5E6 /* ProductsViewController.swift in Sources */,
 				80B129C52C48AAAA00A8B576 /* SettingsViewController.swift in Sources */,
 				80B129C12C48AA4E00A8B576 /* CustomTabBarController.swift in Sources */,
 				80065CC42C44E8110070E24E /* AppDelegate.swift in Sources */,
 				80065CC62C44E8110070E24E /* SceneDelegate.swift in Sources */,
+				80D0989D2C49DC59002C1F27 /* BaseScreen.swift in Sources */,
 				80065CDA2C44E9CA0070E24E /* SignUpViewController.swift in Sources */,
 				80F06BD82C463A7500B09C38 /* TeacherDetailsViewController.swift in Sources */,
 				80F06BCE2C4613A100B09C38 /* TeacherCell.swift in Sources */,
