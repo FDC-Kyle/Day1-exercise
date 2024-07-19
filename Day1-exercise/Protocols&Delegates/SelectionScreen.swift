@@ -19,12 +19,12 @@ class SelectionScreen: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func imperialButtonTapped(_ sender: UIButton) {
+    @IBAction func lakersButtonTapped(_ sender: UIButton) {
         selectionDelegate.didTapChoice(image: UIImage(named: "lebronjames")!, name: "Los Angeles Lakers", color: .purple)
         dismiss(animated: true, completion: nil)
     }
 
-    @IBAction func rebelButtonTapped(_ sender: UIButton) {
+    @IBAction func gswButtonTapped(_ sender: UIButton) {
         selectionDelegate.didTapChoice(image: UIImage(named: "stephencurry")!, name: "Golden State Warriors", color: .yellow)
         dismiss(animated: true, completion: nil)
     }

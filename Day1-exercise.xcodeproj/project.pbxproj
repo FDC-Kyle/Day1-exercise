@@ -33,6 +33,8 @@
 		80D098A62C49E4F3002C1F27 /* NoBaseScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D098A42C49E4F3002C1F27 /* NoBaseScreen.xib */; };
 		80D098A92C49E506002C1F27 /* NoSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098A72C49E506002C1F27 /* NoSelectionScreen.swift */; };
 		80D098AA2C49E506002C1F27 /* NoSelectionScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D098A82C49E506002C1F27 /* NoSelectionScreen.xib */; };
+		80D098B62C49FE82002C1F27 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098B42C49FE82002C1F27 /* APIHelper.swift */; };
+		80D098B72C49FE82002C1F27 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098B52C49FE82002C1F27 /* ProductsViewModel.swift */; };
 		80F06BC32C46098100B09C38 /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC12C46098100B09C38 /* TeacherListViewController.swift */; };
 		80F06BC42C46098100B09C38 /* TeacherListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F06BC22C46098100B09C38 /* TeacherListViewController.xib */; };
 		80F06BCA2C460B4F00B09C38 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC92C460B4F00B09C38 /* SignInViewController.swift */; };
@@ -72,6 +74,8 @@
 		80D098A42C49E4F3002C1F27 /* NoBaseScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoBaseScreen.xib; sourceTree = "<group>"; };
 		80D098A72C49E506002C1F27 /* NoSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSelectionScreen.swift; sourceTree = "<group>"; };
 		80D098A82C49E506002C1F27 /* NoSelectionScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoSelectionScreen.xib; sourceTree = "<group>"; };
+		80D098B42C49FE82002C1F27 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIHelper.swift; path = ../../../../Downloads/APIHelper.swift; sourceTree = "<group>"; };
+		80D098B52C49FE82002C1F27 /* ProductsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductsViewModel.swift; path = ../../../../Downloads/ProductsViewModel.swift; sourceTree = "<group>"; };
 		80F06BC12C46098100B09C38 /* TeacherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TeacherListViewController.swift; path = ../../TeacherListViewController.swift; sourceTree = "<group>"; };
 		80F06BC22C46098100B09C38 /* TeacherListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TeacherListViewController.xib; path = ../../TeacherListViewController.xib; sourceTree = "<group>"; };
 		80F06BC92C460B4F00B09C38 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				80065CD12C44E8120070E24E /* Info.plist */,
 				80F06BE52C466B1500B09C38 /* TableViewHeadwer.swift */,
 				80B129BF2C48AA4E00A8B576 /* CustomTabBarController.swift */,
+				80D098B42C49FE82002C1F27 /* APIHelper.swift */,
+				80D098B52C49FE82002C1F27 /* ProductsViewModel.swift */,
 			);
 			path = "Day1-exercise";
 			sourceTree = "<group>";
@@ -322,6 +328,8 @@
 				80065CD82C44E9A20070E24E /* FrontPageViewController.swift in Sources */,
 				800660712C478C44007AD5E6 /* ProductDetailViewController.swift in Sources */,
 				80D098A52C49E4F3002C1F27 /* NoBaseScreen.swift in Sources */,
+				80D098B62C49FE82002C1F27 /* APIHelper.swift in Sources */,
+				80D098B72C49FE82002C1F27 /* ProductsViewModel.swift in Sources */,
 				80D098A92C49E506002C1F27 /* NoSelectionScreen.swift in Sources */,
 				800660752C47AE74007AD5E6 /* TestingScrollViewController.swift in Sources */,
 				800660692C47596A007AD5E6 /* ProductsViewController.swift in Sources */,

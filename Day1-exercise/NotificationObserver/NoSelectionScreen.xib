@@ -24,7 +24,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Lakers"/>
                     <connections>
-                        <action selector="imperialButtonTapped:" destination="-1" eventType="touchUpInside" id="361-cS-cEj"/>
+                        <action selector="lakersButtonTapped:" destination="-1" eventType="touchUpInside" id="Qc1-Zb-Xfm"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpr-ps-QRL">
@@ -33,7 +33,7 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="GSW"/>
                     <connections>
-                        <action selector="rebelButtonTapped:" destination="-1" eventType="touchUpInside" id="Ii8-Og-EkR"/>
+                        <action selector="gswButtonTapped:" destination="-1" eventType="touchUpInside" id="ho8-nx-saK"/>
                     </connections>
                 </button>
             </subviews>
