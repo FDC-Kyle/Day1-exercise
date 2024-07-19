@@ -34,12 +34,12 @@
 		80D098A92C49E506002C1F27 /* NoSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098A72C49E506002C1F27 /* NoSelectionScreen.swift */; };
 		80D098AA2C49E506002C1F27 /* NoSelectionScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D098A82C49E506002C1F27 /* NoSelectionScreen.xib */; };
 		80D098B62C49FE82002C1F27 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098B42C49FE82002C1F27 /* APIHelper.swift */; };
-		80D098B72C49FE82002C1F27 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098B52C49FE82002C1F27 /* ProductsViewModel.swift */; };
 		80D098B92C4A38CF002C1F27 /* ProductsViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098B82C4A38CF002C1F27 /* ProductsViewModel2.swift */; };
 		80D098BB2C4A425C002C1F27 /* addProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098BA2C4A425C002C1F27 /* addProductViewModel.swift */; };
 		80D098BD2C4A4C9F002C1F27 /* UpdateProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098BC2C4A4C9F002C1F27 /* UpdateProductViewModel.swift */; };
 		80D098C02C4A4FF8002C1F27 /* CrudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098BE2C4A4FF8002C1F27 /* CrudViewController.swift */; };
 		80D098C12C4A4FF8002C1F27 /* CrudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D098BF2C4A4FF8002C1F27 /* CrudViewController.xib */; };
+		80D098C72C4A6C1C002C1F27 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D098C42C4A534F002C1F27 /* ProductsViewModel.swift */; };
 		80F06BC32C46098100B09C38 /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC12C46098100B09C38 /* TeacherListViewController.swift */; };
 		80F06BC42C46098100B09C38 /* TeacherListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F06BC22C46098100B09C38 /* TeacherListViewController.xib */; };
 		80F06BCA2C460B4F00B09C38 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F06BC92C460B4F00B09C38 /* SignInViewController.swift */; };
@@ -82,7 +82,6 @@
 		80D098A72C49E506002C1F27 /* NoSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSelectionScreen.swift; sourceTree = "<group>"; };
 		80D098A82C49E506002C1F27 /* NoSelectionScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoSelectionScreen.xib; sourceTree = "<group>"; };
 		80D098B42C49FE82002C1F27 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIHelper.swift; path = ../../../../Downloads/APIHelper.swift; sourceTree = "<group>"; };
-		80D098B52C49FE82002C1F27 /* ProductsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductsViewModel.swift; path = ../../../../Downloads/ProductsViewModel.swift; sourceTree = "<group>"; };
 		80D098B82C4A38CF002C1F27 /* ProductsViewModel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel2.swift; sourceTree = "<group>"; };
 		80D098BA2C4A425C002C1F27 /* addProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addProductViewModel.swift; sourceTree = "<group>"; };
 		80D098BC2C4A4C9F002C1F27 /* UpdateProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProductViewModel.swift; sourceTree = "<group>"; };
@@ -163,7 +162,7 @@
 				80F06BE52C466B1500B09C38 /* TableViewHeadwer.swift */,
 				80B129BF2C48AA4E00A8B576 /* CustomTabBarController.swift */,
 				80D098B42C49FE82002C1F27 /* APIHelper.swift */,
-				80D098B52C49FE82002C1F27 /* ProductsViewModel.swift */,
+				80D098C42C4A534F002C1F27 /* ProductsViewModel.swift */,
 			);
 			path = "Day1-exercise";
 			sourceTree = "<group>";
@@ -280,7 +279,6 @@
 			children = (
 				80D098BC2C4A4C9F002C1F27 /* UpdateProductViewModel.swift */,
 				80D098BA2C4A425C002C1F27 /* addProductViewModel.swift */,
-				80D098C42C4A534F002C1F27 /* ProductsViewModel.swift */,
 				80D098B82C4A38CF002C1F27 /* ProductsViewModel2.swift */,
 			);
 			path = Models;
@@ -433,9 +431,9 @@
 				80D098A52C49E4F3002C1F27 /* NoBaseScreen.swift in Sources */,
 				80D098B62C49FE82002C1F27 /* APIHelper.swift in Sources */,
 				80D098BB2C4A425C002C1F27 /* addProductViewModel.swift in Sources */,
-				80D098B72C49FE82002C1F27 /* ProductsViewModel.swift in Sources */,
 				80D098C02C4A4FF8002C1F27 /* CrudViewController.swift in Sources */,
 				80D098A92C49E506002C1F27 /* NoSelectionScreen.swift in Sources */,
+				80D098C72C4A6C1C002C1F27 /* ProductsViewModel.swift in Sources */,
 				800660752C47AE74007AD5E6 /* TestingScrollViewController.swift in Sources */,
 				800660692C47596A007AD5E6 /* ProductsViewController.swift in Sources */,
 				80B129C52C48AAAA00A8B576 /* SettingsViewController.swift in Sources */,

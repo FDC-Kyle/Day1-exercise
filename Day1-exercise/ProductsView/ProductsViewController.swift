@@ -14,7 +14,7 @@ struct Product{
 
 class ProductsViewController: UIViewController{
     @IBOutlet weak var collectionView: UICollectionView!
-    private let viewModel = ProductsViewModel()
+
     var products: [Product] = [
         Product(name:"The Hunted", image: "hunter" ),
         Product(name:"Twilight Vampires", image: "vampire" ),
@@ -128,7 +128,7 @@ class ProductsViewController: UIViewController{
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.fetchProducts()
+
         
         let nib = UINib(nibName: "ProductCell", bundle: nil)
         self.collectionView.register(nib, forCellWithReuseIdentifier: "ProductCell")
