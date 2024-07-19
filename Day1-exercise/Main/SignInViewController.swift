@@ -65,6 +65,11 @@ class SignInViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func crudButton(_ sender: Any) {
+        let vc = CrudViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     @IBAction func protocolAndDelegates(_ sender: Any) {
         let vc = BaseScreen()
         vc.modalPresentationStyle = .fullScreen

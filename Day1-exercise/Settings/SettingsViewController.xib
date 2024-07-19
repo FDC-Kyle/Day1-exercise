@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController" customModule="Day1_exercise" customModuleProvider="target">
             <connections>
+                <outlet property="darkModeSwitch" destination="IdM-Hs-zuA" id="BmL-kr-EfD"/>
+                <outlet property="searchBar" destination="c5C-t8-FaK" id="r99-77-RyI"/>
                 <outlet property="view" destination="ZHn-g2-wGF" id="0wu-Qd-KRu"/>
             </connections>
         </placeholder>
@@ -29,6 +31,8 @@
                         </label>
                         <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="c5C-t8-FaK">
                             <rect key="frame" x="10" y="98.666666666666686" width="373" height="75.333333333333314"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
                                 <outlet property="delegate" destination="-1" id="tQ7-xF-vqy"/>
@@ -118,6 +122,9 @@
                         <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IdM-Hs-zuA">
                             <rect key="frame" x="334" y="502" width="51" height="31"/>
                             <color key="onTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="darkModeSwitchChanged:" destination="-1" eventType="valueChanged" id="yB1-h0-d5S"/>
+                            </connections>
                         </switch>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home &amp; Lock Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BY1-dJ-Xqu">
                             <rect key="frame" x="86" y="574" width="217" height="29"/>
@@ -171,7 +178,6 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstItem="IdM-Hs-zuA" firstAttribute="top" secondItem="UfW-Gl-bri" secondAttribute="bottom" constant="37" id="0Ap-ch-GLU"/>
                         <constraint firstItem="DL5-JU-YOI" firstAttribute="leading" secondItem="fz2-FZ-1gB" secondAttribute="leading" constant="15" id="0Qv-OQ-Vcp"/>

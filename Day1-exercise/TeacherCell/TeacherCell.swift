@@ -14,6 +14,7 @@ class TeacherCell: UITableViewCell {
     @IBOutlet weak var teacherName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+       
         // Initialization code
     }
 
